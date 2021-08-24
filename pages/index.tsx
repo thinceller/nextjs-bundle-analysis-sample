@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -50,6 +51,8 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <Link href="/about"><a>go to about page</a></Link>
       </main>
 
       <footer className={styles.footer}>
